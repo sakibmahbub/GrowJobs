@@ -9,7 +9,11 @@ const Footer = () => {
           Grow Jobs Ltd. Providing reliable job since 2110
         </p>
         <div className="w-20">
-          <img className="w-full" src="../assets/Icons/Group9969.png" alt="" />
+          <img
+            className="w-full"
+            src="/src/assets/Icons/Group9969.png"
+            alt=""
+          />
         </div>
       </div>
       <div>
