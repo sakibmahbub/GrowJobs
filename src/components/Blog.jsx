@@ -1,7 +1,8 @@
 import React from "react";
+import Banner from "./Banner";
 
 const Blog = () => {
-  return <div></div>;
+  return <Banner pageTitle="Blog" />;
 };
 
 export default Blog;

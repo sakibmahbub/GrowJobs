@@ -1,7 +1,8 @@
 import React from "react";
+import Banner from "./Banner";
 
 const Statistics = () => {
-  return <div></div>;
+  return <Banner pageTitle="Statistics" />;
 };
 
 export default Statistics;
