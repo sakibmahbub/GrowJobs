@@ -30,10 +30,8 @@
     "job_responsibility": "Develop and execute marketing strategies.",
     "educational_requirements": "Bachelor's degree in Marketing or related field.",
     "experiences": "5+ years of experience in marketing.",
-    "contact_information": {
-      "phone": "555-555-5555",
-      "email": "hr@xyzcorp.com"
-    }
+    "phone": "555-555-5555",
+    "email": "hr@xyzcorp.com"
   },
   {
     "id": 3,
@@ -48,10 +46,9 @@
     "job_responsibility": "Analyze and interpret complex data sets.",
     "educational_requirements": "Bachelor's degree in Mathematics, Statistics, or related field.",
     "experiences": "1+ years of experience in data analysis.",
-    "contact_information": {
-      "phone": "111-111-1111",
-      "email": "hr@123corp.com"
-    }
+
+    "phone": "111-111-1111",
+    "email": "hr@123corp.com"
   },
   {
     "id": 4,
@@ -66,12 +63,12 @@
     "job_responsibility": "Design graphics for marketing materials and websites.",
     "educational_requirements": "Bachelor's degree in Graphic Design or related field.",
     "experiences": "3+ years of experience in graphic design.",
-    "contact_information": {
-      "phone": "555-123-4567",
-      "email": "hr@designco.com"
-    }
+
+    "phone": "555-123-4567",
+    "email": "hr@designco.com"
   },
   {
+    "id": 5,
     "company_logo": "/src/assets/Logo/netflix-4 1.png",
     "job_title": "Sales Representative",
     "company_name": "Netflix",
@@ -83,10 +80,9 @@
     "job_responsibility": "Identify and pursue sales opportunities.",
     "educational_requirements": "Bachelor's degree in Business or related field.",
     "experiences": "2+ years of experience in sales.",
-    "contact_information": {
-      "phone": "888-888-8888",
-      "email": "hr@salesinc.com"
-    }
+
+    "phone": "888-888-8888",
+    "email": "hr@salesinc.com"
   },
   {
     "id": 6,
@@ -101,9 +97,8 @@
     "job_responsibility": "Assist customers with their inquiries and issues.",
     "educational_requirements": "High School diploma or equivalent.",
     "experiences": "1+ years of experience in customer service.",
-    "contact_information": {
-      "phone": "777-777-7777",
-      "email": "hr@customerserviceco.com"
-    }
+
+    "phone": "777-777-7777",
+    "email": "hr@customerserviceco.com"
   }
 ]

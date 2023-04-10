@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const Featuredjob = ({ job }) => {
   const {
@@ -10,6 +11,13 @@ const Featuredjob = ({ job }) => {
     location,
     salary,
   } = job;
+
+  const navigate = useNavigate();
+
+  const handleViewDetails = () => {
+    navigate(`/job/${job.id}`);
+  };
+
   return (
     <div className="mt-5 border border-blue-200 rounded p-20">
       <img className="object-cover mb-3" src={company_logo} alt="" />
@@ -39,7 +47,10 @@ const Featuredjob = ({ job }) => {
           </p>
         </div>
       </div>
-      <button className="px-3 py-2 mt-4 text-sm text-white rounded font-semibold bg-primary ">
+      <button
+        onClick={handleViewDetails}
+        className="px-3 py-2 mt-4 text-sm text-white rounded font-semibold bg-primary "
+      >
         View Details
       </button>
     </div>
