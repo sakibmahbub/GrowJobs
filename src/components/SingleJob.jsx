@@ -1,6 +1,6 @@
 import React from "react";
 
-const SingleJob = ({ details }) => {
+const SingleJob = ({ details, addToApply }) => {
   return (
     <div className="my-container">
       <div className="flex items-start gap-10 justify-center ">
@@ -66,7 +66,12 @@ const SingleJob = ({ details }) => {
               </p>
             </div>
           </div>
-          <button className="btn btn-primary mt-8 w-full">Apply Now</button>
+          <button
+            onClick={() => addToApply(details.id)}
+            className="btn btn-primary mt-8 w-full"
+          >
+            Apply Now
+          </button>
         </div>
       </div>
     </div>

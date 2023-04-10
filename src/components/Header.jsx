@@ -10,7 +10,7 @@ const Header = () => {
         {/* Logo Section */}
         <Link to="/" className="inline-flex items-center">
           <span className="ml-2 text-3xl font-bold tracking-wide text-gray-800">
-            Grow Jobs
+            GrowJobs
           </span>
         </Link>
 

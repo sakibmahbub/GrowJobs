@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import SingleJob from "./SingleJob";
 import Banner from "./Banner";
+import { addToDb } from "../utility/fakeDB";
 
 const JobDetails = () => {
   const { id } = useParams();
@@ -16,10 +17,14 @@ const JobDetails = () => {
     }
   }, [id]);
 
+  const addToApply = (id) => {
+    addToDb(id);
+  };
+
   return (
     <>
       <Banner pageTitle="Job Details" />
-      <SingleJob details={details} />
+      <SingleJob details={details} addToApply={addToApply} />
     </>
   );
 };
