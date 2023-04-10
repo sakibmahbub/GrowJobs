@@ -7,6 +7,7 @@ import Home from "./components/Home";
 import Statistics from "./components/Statistics";
 import AppliedJobs from "./components/AppliedJobs";
 import Blog from "./components/Blog";
+import FeaturedJobs from "./components/FeaturedJobs";
 
 const router = createBrowserRouter([
   {
