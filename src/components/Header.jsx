@@ -71,7 +71,7 @@ const Header = () => {
                   <div>
                     <Link to="/" className="inline-flex items-center">
                       <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                        nextPage
+                        GrowJobs
                       </span>
                     </Link>
                   </div>
@@ -96,18 +96,26 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        to="/books"
+                        to="/statistics"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                       >
-                        Books
+                        Statistics
                       </Link>
                     </li>
                     <li>
                       <Link
-                        to="/about"
+                        to="/appliedjobs"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
                       >
-                        About Us
+                        Applied Jobs
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to="/blog"
+                        className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-blue-400"
+                      >
+                        Blog
                       </Link>
                     </li>
                   </ul>
