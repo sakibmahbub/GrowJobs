@@ -27,14 +27,14 @@ const SingleJob = ({ details, addToApply }) => {
           <hr />
           <div>
             <div className="flex items-center justify-start gap-3 mt-5 mb-3">
-              <img src="/src/assets/Icons/Frame.png" alt="" />
+              <img src="https://i.ibb.co/HCMJwCr/Frame.png" alt="" />
               <p>
                 <span className="font-bold">Salary : </span>
                 {details.salary}
               </p>
             </div>
             <div className="flex items-center justify-start gap-3">
-              <img src="/src/assets/Icons/Frame-1.png" alt="" />
+              <img src="https://i.ibb.co/t3PRhf4/Frame-1.png" alt="" />
               <p>
                 <span className="font-bold">Job Title : </span>
                 {details.job_title}
@@ -45,21 +45,21 @@ const SingleJob = ({ details, addToApply }) => {
           <hr />
           <div>
             <div className="flex items-center justify-start gap-3 mt-5 mb-3">
-              <img src="/src/assets/Icons/Frame-2.png" alt="" />
+              <img src="https://i.ibb.co/M8gQBK8/Frame-2.png" alt="" />
               <p>
                 <span className="font-bold">Phone : </span>
                 {details.phone}
               </p>
             </div>
             <div className="flex items-center justify-start gap-3 mt-5 mb-3">
-              <img src="/src/assets/Icons/Frame-3.png" alt="" />
+              <img src="https://i.ibb.co/cb78cC1/Frame-3.png" alt="" />
               <p>
                 <span className="font-bold">Email : </span>
                 {details.email}
               </p>
             </div>
             <div className="flex items-center justify-start gap-3 mt-5 mb-3">
-              <img src="/src/assets/Icons/Frame-4.png" alt="" />
+              <img src="https://i.ibb.co/3CvCn62/Frame-4.png" alt="" />
               <p>
                 <span className="font-bold">Address : </span>
                 {details.location}

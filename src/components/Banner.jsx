@@ -6,7 +6,7 @@ const Banner = ({ pageTitle }) => {
       <div className="bg-blue-50 w-full h-80 -mt-20 mx-auto relative">
         <img
           className="absolute bottom-0 left-0 object-cover"
-          src="/src/assets/All Images/Vector.png"
+          src="https://i.ibb.co/7NSHHS7/Vector.png"
           alt=""
         />
         <div className="flex h-full my-auto items-center justify-center">
@@ -16,7 +16,7 @@ const Banner = ({ pageTitle }) => {
         </div>
         <img
           className="absolute top-0 right-0 object-cover"
-          src="/src/assets/All Images/Vector-1.png"
+          src="https://i.ibb.co/DWrWJDy/Vector-1.png"
           alt=""
         />
       </div>

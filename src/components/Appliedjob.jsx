@@ -42,7 +42,7 @@ const Appliedjob = ({ job }) => {
           <div className="lg:flex sm:justify-between lg:justify-start items-center gap-4">
             <div className="flex gap-2 items-center">
               <img
-                src="/src/assets/Icons/Frame-4.png"
+                src="https://i.ibb.co/3CvCn62/Frame-4.png"
                 alt=""
                 className="w-4 h-4"
               />
@@ -50,7 +50,7 @@ const Appliedjob = ({ job }) => {
             </div>
             <div className="flex gap-2 items-center">
               <img
-                src="/src/assets/Icons/Frame.png"
+                src="https://i.ibb.co/HCMJwCr/Frame.png"
                 alt=""
                 className="w-4 h-4"
               />

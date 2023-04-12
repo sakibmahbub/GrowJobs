@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <div class="mx-auto lg:w-1/2">
           <img
-            src="/src/assets/All Images/P3OLGJ1 copy 1.png"
+            src="https://i.ibb.co/q1MfdrZ/P3-OLGJ1-copy-1.png"
             alt=""
             class="mx-auto lg:mx-0"
           />

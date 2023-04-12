@@ -36,11 +36,11 @@ const Featuredjob = ({ job }) => {
       </div>
       <div className="lg:flex items-center justify-start gap-10">
         <div className="flex gap-2 items-center">
-          <img src="/src/assets/Icons/Frame-4.png" alt="" />
+          <img src="https://i.ibb.co/3CvCn62/Frame-4.png" alt="" />
           <p>{location}</p>
         </div>
         <div className="flex gap-2 items-center">
-          <img src="/src/assets/Icons/Frame.png" alt="" />
+          <img src="https://i.ibb.co/HCMJwCr/Frame.png" alt="" />
 
           <p>
             Salary : <span>{salary}</span>

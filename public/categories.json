@@ -1,26 +1,26 @@
 [
   {
     "id": "1",
-    "logo": "/src/assets/Icons/accounts 1.png",
-    "name": "Technology",
+    "logo": "https://i.ibb.co/FHHwnjJ/accounts-1.png",
+    "name": "Accounts",
     "jobs": "2480 jobs available"
   },
   {
     "id": "2",
-    "logo": "/src/assets/Icons/business 1.png",
+    "logo": "https://i.ibb.co/7YFrvZC/business-1.png",
     "name": "Finance",
     "jobs": "1825 jobs available"
   },
   {
     "id": "3",
-    "logo": "/src/assets/Icons/chip 1.png",
-    "name": "Marketing",
+    "logo": "https://i.ibb.co/XX6Zk7Q/chip-1.png",
+    "name": "Healthcare",
     "jobs": "1350 jobs available"
   },
   {
     "id": "4",
-    "logo": "/src/assets/Icons/social-media 1.png",
-    "name": "Healthcare",
+    "logo": "https://i.ibb.co/1vSdWXn/social-media-1.png",
+    "name": "Marketing",
     "jobs": "920 jobs available"
   }
 ]
