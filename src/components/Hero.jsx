@@ -3,21 +3,27 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="my-container">
-      <div className="flex items-center justify-center">
-        <div className="lg: ml-28">
-          <h1 className="text-6xl font-bold leading-tight">
+      <div class="flex flex-col lg:flex-row justify-center items-center">
+        <div class="mx-auto lg:ml-28 lg:w-1/2">
+          <h1 class="text-4xl lg:text-6xl font-bold leading-tight mb-6 lg:mb-8 text-center lg:text-left">
             One Step <br /> Closer To Your <br />
-            <span className="text-primary">Dream Job</span>
+            <span class="text-primary">Dream Job</span>
           </h1>
-          <p className="lg:w-3/6 my-6 text-gray-500">
+          <p class="text-gray-500 lg:w-4/6 mb-8 lg:mb-12 text-center lg:text-left">
             Explore thousands of job opportunities with all the information you
-            need. Its your future. Come find it. Manage all your job application
-            from start to finish.
+            need. It's your future. Come find it. Manage all your job
+            applications from start to finish.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <div class="flex justify-center lg:justify-start">
+            <button class="btn btn-primary">Get Started</button>
+          </div>
         </div>
-        <div>
-          <img src="/src/assets/All Images/P3OLGJ1 copy 1.png" alt="" />
+        <div class="mx-auto lg:w-1/2">
+          <img
+            src="/src/assets/All Images/P3OLGJ1 copy 1.png"
+            alt=""
+            class="mx-auto lg:mx-0"
+          />
         </div>
       </div>
     </div>

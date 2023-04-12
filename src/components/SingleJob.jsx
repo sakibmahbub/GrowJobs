@@ -3,7 +3,7 @@ import React from "react";
 const SingleJob = ({ details, addToApply }) => {
   return (
     <div className="my-container">
-      <div className="flex items-start gap-10 justify-center ">
+      <div className="lg:flex  items-start gap-10 justify-center ">
         <div className="p-10">
           <h5 className="my-8 text-lg">
             <span className="font-bold ">Job Description : </span>{" "}

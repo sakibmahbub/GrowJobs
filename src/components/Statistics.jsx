@@ -18,7 +18,7 @@ const PieChartExample = () => {
   return (
     <>
       <Banner pageTitle="Statistics" />
-      <div className="flex justify-center items-center h-screen bg-gray-50">
+      <div className="flex mb-5 justify-center items-center h-screen bg-gray-50">
         <div className="bg-white shadow-md rounded p-10 mb-4">
           <PieChart width={400} height={400}>
             <Pie

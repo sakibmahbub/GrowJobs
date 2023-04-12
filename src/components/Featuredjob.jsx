@@ -34,7 +34,7 @@ const Featuredjob = ({ job }) => {
           {fulltime_or_parttime}
         </p>
       </div>
-      <div className="flex items-center justify-start gap-10">
+      <div className="lg:flex items-center justify-start gap-10">
         <div className="flex gap-2 items-center">
           <img src="/src/assets/Icons/Frame-4.png" alt="" />
           <p>{location}</p>
