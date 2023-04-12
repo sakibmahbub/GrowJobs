@@ -17,7 +17,7 @@ const COLORS = ["#FF6384", "#36A2EB", "#FFCE56"];
 const PieChartExample = () => {
   return (
     <>
-      <Banner pageTitle="Pie Chart" />
+      <Banner pageTitle="Statistics" />
       <div className="flex justify-center items-center h-screen bg-gray-50">
         <div className="bg-white shadow-md rounded p-10 mb-4">
           <PieChart width={400} height={400}>
